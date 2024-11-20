@@ -1,0 +1,18 @@
+{
+  "preferredVersions": {
+    "php": "7.4",
+    "wp": "latest"
+  },
+  "steps": [
+    {
+      "step": "installTheme",
+      "themeData": {
+        "resource": "wordpress.org/themes",
+        "slug": "abnomize"
+      },
+      "options": {
+        "activate": true
+      }
+    }
+  ]
+}
