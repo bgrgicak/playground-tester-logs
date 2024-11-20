@@ -1,0 +1,33 @@
+file:///Users/bero/Projects/playground-tester/node_modules/@php-wasm/universal/index.js:979
+        const c = new PHPExecutionFailureError(
+                  ^
+
+PHPExecutionFailureError: PHP.run() failed with exit code 1 and the following output: 
+    at PHP.run (file:///Users/bero/Projects/playground-tester/node_modules/@php-wasm/universal/index.js:979:19)
+    at async c (file:///Users/bero/Projects/playground-tester/node_modules/@wp-playground/wordpress/index.js:1:1595)
+    at async x (file:///Users/bero/Projects/playground-tester/node_modules/@wp-playground/wordpress/index.js:1:1470)
+    at async Object.onBind (file:///Users/bero/Projects/playground-tester/node_modules/@wp-playground/cli/cli.js:19:671)
+    at async j (file:///Users/bero/Projects/playground-tester/node_modules/@wp-playground/cli/cli.js:1:1166) {
+  response: PHPResponse {
+    httpStatusCode: 500,
+    headers: {
+      'x-powered-by': [ 'PHP/7.0.33' ],
+      'content-type': [ 'text/html; charset=utf-8' ]
+    },
+    bytes: Uint8Array(87) [
+       89, 111, 117, 114,  32, 115, 101, 114, 118, 101, 114,  32,
+      105, 115,  32, 114, 117, 110, 110, 105, 110, 103,  32,  80,
+       72,  80,  32, 118, 101, 114, 115, 105, 111, 110,  32,  55,
+       46,  48,  46,  51,  51,  32,  98, 117, 116,  32,  87, 111,
+      114, 100,  80, 114, 101, 115, 115,  32,  54,  46,  54,  46,
+       50,  32, 114, 101, 113, 117, 105, 114, 101, 115,  32,  97,
+      116,  32, 108, 101,  97, 115, 116,  32,  55,  46,  50,  46,
+       50,  52,  46
+    ],
+    exitCode: 1,
+    errors: ''
+  },
+  source: 'request'
+}
+
+Node.js v18.18.2
